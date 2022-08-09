@@ -1,0 +1,70 @@
+/* universel selector */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* name selector */
+
+body {
+background-color: brown;
+color: blue;
+}
+
+/* id selector */
+
+#admin-box {
+background-color: black;
+width: 50%;
+text-align: center;
+margin: 100px auto 0px;
+padding: 20px;
+}
+
+/* decendent selector */
+
+#admin-box h1 {
+    font-size: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    margin: 20px 0px;
+}
+
+input,
+label {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="submit"] {
+    width: 50%;
+    margin-top: 20px;
+    background-color: red;
+    font-size: 17px;
+}
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+p {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
